@@ -18,3 +18,7 @@
   object-fit: cover;
   object-position: top;
 }
+.imageflou{
+  background-color: rgba(0,0,0,0.3);
+
+}
