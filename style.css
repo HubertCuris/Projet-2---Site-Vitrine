@@ -1,0 +1,6 @@
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  object-fit: cover;
+  object-position: top;
+}
