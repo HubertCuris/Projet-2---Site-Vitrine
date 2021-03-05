@@ -1,23 +1,49 @@
-header .carousel-inner
-{
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Inconsolata:wght@700&family=Montserrat&display=swap');
+
+.logoEcole{
+  font-family: 'Comfortaa', cursive;
+}
+.logo404{
+  color: #F5420A;
+  font-weight: bold;
+  font-size: 120%;
+}
+.imageflou{
+  background-color: rgba(0,0,0,0.4);
+}
+body{
+  color:rgb(23, 64, 105);
+  font-family: 'Montserrat', sans-serif;
+}
+header .carousel-inner {
   height: 60vh;  
 }
-.carousel-item img
-{
+.carousel-item img {
   object-fit: cover;
   object-position: center;
+}
+nav#navbar .nav-item a.nav-link.active{
+  color: #F5420A;
+}
+nav#navbar .nav-item a.nav-link:hover:not(.active) {
+  color: rgb(245, 66, 10, .6);
 }
 #presentation {
   padding-top: 3.5rem;
 }
-#presentation .carousel-inner {
-  height: 400px; 
+#presentation .carousel-inner img {
+  height: 400px;
 }
-#presentation .carousel-inner .imageflou{
-  background-color: rgba(0,0,0,0.3);
+#presentation .info-icon {
+  color: #f1c40f;
 }
 #formation {
   padding-top: 5.5rem;
+}
+
+#formation .card .card-buttons .btn-green {
+  background-color: #2ecc71;
+  color: #fff;
 }
 #team {
   padding-top: 5.5rem;
@@ -31,25 +57,15 @@ header .carousel-inner
   object-fit: cover;
   object-position: top;
 }
-.logoEcole{
-    font-family: 'Comfortaa', cursive;
-}
-.logo404{
-    color: #F5420A;
-    /*font-family: 'Inconsolata', monospace; */
-    font-weight: bold;
-    font-size: 120%;
-}
-body{
-    color:rgb(23, 64, 105);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 100%;
-    /* background-image: url('images/back.jpg'); */
-    /*   #00b894   */
-}
-.input{
-    width: 100%;
-}
 footer {
   height: 8rem;
+  color: #2ecc71;
+  color: #f1c40f;
+}
+
+@media screen and (min-width: 991px) {
+  #presentation .carousel-inner img {
+    height: 100%;
+    max-height: 800px;
+  }
 }
