@@ -18,3 +18,23 @@
   object-fit: cover;
   object-position: top;
 }
+.logoEcole{
+    font-family: 'Comfortaa', cursive;
+}
+.logo404{
+    color: #F5420A;
+  /*font-family: 'Inconsolata', monospace; */
+    font-weight: bold;
+    font-size: 120%;
+}
+body{
+    color:rgb(23, 64, 105);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+    bac
+    /* background-image: url('images/back.jpg'); */
+    /*   #00b894   */
+}
+.input{
+    width: 100%;
+}
