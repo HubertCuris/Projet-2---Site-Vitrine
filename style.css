@@ -1,7 +1,7 @@
-/*.carousel-inner
+header .carousel-inner
 {
   height: 60vh;  
-}*/
+}
 .carousel-item img
 {
   object-fit: cover;
@@ -9,6 +9,12 @@
 }
 #presentation {
   padding-top: 3.5rem;
+}
+#presentation .carousel-inner {
+  height: 400px; 
+}
+#presentation .carousel-inner .imageflou{
+  background-color: rgba(0,0,0,0.3);
 }
 #formation {
   padding-top: 5.5rem;
@@ -27,8 +33,4 @@
 }
 footer {
   height: 8rem;
-}
-.imageflou{
-  background-color: rgba(0,0,0,0.3);
-
 }
