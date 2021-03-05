@@ -1,16 +1,29 @@
-.carousel-inner
+header .carousel-inner
 {
-    height: 60vh;  
+  height: 60vh;  
 }
 .carousel-item img
 {
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+  object-fit: cover;
+  object-position: center;
 }
-.carousel-item
-{
-    height: 100%;
+#presentation {
+  padding-top: 3.5rem;
+}
+#presentation .carousel-inner {
+  height: 400px; 
+}
+#presentation .carousel-inner .imageflou{
+  background-color: rgba(0,0,0,0.3);
+}
+#formation {
+  padding-top: 5.5rem;
+}
+#team {
+  padding-top: 5.5rem;
+}
+#contact {
+  padding-top: 5.5rem;
 }
 .team-member img {
   width: 14rem;
@@ -30,11 +43,13 @@
 body{
     color:rgb(23, 64, 105);
     font-family: 'Montserrat', sans-serif;
-    font-size: 110%;
-    bac
+    font-size: 100%;
     /* background-image: url('images/back.jpg'); */
     /*   #00b894   */
 }
 .input{
     width: 100%;
+}
+footer {
+  height: 8rem;
 }

@@ -1,71 +1,39 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/d09c70e5a9.js" crossorigin="anonymous"></script>
-
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <title>Page d'accueil - Ecole 404</title>
-</head>
-<!--<body class="bg-success">-->
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand text-light" href="#"><span class="logoEcole">ÉCOLE</span> <span
-            class="logo404">404</span></a>
-        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-uppercase">
-            <li class="nav-item ">
-              <a class="nav-link js-scroll-trigger" aria-current="page" href="#accueil">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger " href="#formation">Formations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#equipe">Équipe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container-fluid px-0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d09c70e5a9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>École 404 - Page d'accueil</title>
+  </head>
+  <body id="accueil" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="1" tabindex="0">
+    <header>
       <div id="carouselTop" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselTop" data-bs-slide-to="0" class="active" aria-current="true"
-            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselTop" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselTop" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselTop" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active image-fluid">
-            <img src="images/carrousel1.jpg" class="d-block w-100" alt="Bâtiment de l'école" />
+          <div class="carousel-item h-100 active">
+            <h1 class="position-absolute top-50 start-50 translate-middle">La super école du numérique</h1>
+            <img src="images/carrousel1.jpg" class="w-100 h-100" alt="Bâtiment de l'école" />
           </div>
-          <div class="carousel-item">
-            <img src="images/carrousel2.jpg" class="d-block w-100" alt="Etudiants" />
+          <div class="carousel-item h-100">
+            <img src="images/carrousel2.jpg" class="w-100 h-100" alt="Etudiants" />
           </div>
-          <div class="carousel-item">
-            <img src="images/carrousel3.jpg" class="d-block w-100" alt="Lignes de code" />
+          <div class="carousel-item h-100">
+            <img src="images/carrousel3.jpg" class="w-100 h-100" alt="Fils" />
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselTop" data-bs-slide="prev">
@@ -77,188 +45,249 @@
           <span class="visually-hidden">Suivant</span>
         </button>
       </div>
-    </div>
-  </header>
-  <section id="presentation">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 ">
-          PRÉSENTATION DE L'ÉCOLE
-          <div class="p-3" id="infos">
-            <img src="./ecole42.jpg" alt="Des élèves devant leur ordinateur qui levent les mains" class="w-100">
-            <p>
-              Fondée en 1995, l'école <span class="logo404">404</span>, forme des experts sur tout les métiers du
-              numérique. Ceux-ci, seront capables de répondre
-              à tous les besoins des entreprises sur leur aspect digital, et seront entièrement polyvalent.
-            </p>
-            <p>
-              L'école 404 s'interroge au quotidien sur l'évolution des métiers du web, et vous proposera
-              des formations à la pointe des dernières technologies.</br>
-              Excellence, rigueur et professionnalisme sont les trois principales valeurs que vous acquerrez lors de
-              votre passage
-              au sein de cet établissement, de haut standing.</br>
-              L'équipe pédagogique constitué des plus grands cadors du XXIe siècle, vous permettront un apprentissage
-              dans les meilleurs conditions, ainsi que des diplômes reconnus à l'international.
-            </p>
-            <p>
-              L'école 404 s’adresse à deux types d’acteurs :
-            </p>
-            <p>
-              Les salariés et les demandeurs d’emploi qui souhaitent parfaire leur connaissance ou assumer une
-              reconversion
-              professionnelle dans les meilleurs conditions.
-              Les étudiants qui souhaitent avoir de vrais connaissances.
-            </p>
-            <p>
-              Si vous faites le bon choix de venir étudier dans notre école, je peux vous garantir que les entreprises
-              vous dérouleront
-              le tapis rouge en voyant votre diplôme et sa provenance. Je pense que la question, elle est vite répondue.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6">CARROUSEL DES CAMPUS</div>
-      </div>
-    </div>
-  </section>
-  <section id="formation">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100">
-            <div class="card-body d-flex flex-column justify-content-between">
-              <h5 class="card-title">FORMATION WEB ET WEB MOBILE BAC +2</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <div class="card-buttons">
-                <a href="#" class="btn btn-secondary">+ d'infos</a>
-                <a href="mailto:candidature@ecole404.com" title="Présenter une candidature"
-                  class="btn btn-primary">Candidater</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100">
-            <div class="card-body d-flex flex-column justify-content-between">
-              <h5 class="card-title">FORMATION DEVELOPPEUR FULL-STACK BAC +3/4</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <div class="card-buttons">
-                <a href="#" class="btn btn-secondary">+ d'infos</a>
-                <a href="mailto:candidature@ecole404.com" title="Présenter une candidature"
-                  class="btn btn-primary">Candidater</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100">
-            <div class="card-body d-flex flex-column justify-content-between">
-              <h5 class="card-title">FORMATION DEVELOPPEUR BAC +5</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <div class="card-buttons">
-                <a href="#" class="btn btn-secondary">+ d'infos</a>
-                <a href="mailto:candidature@ecole404.com" title="Présenter une candidature"
-                  class="btn btn-primary">Candidater</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="team">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="team-member text-center">
-            <img src="./bill-gates.jpg" alt="Bill Gates directeur de l'école 404" class="mx-auto rounded-circle">
-            <h3>Bill Gates</h3>
-            <p>Directeur</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="team-member text-center">
-            <img src="./zukerberg.jpg" alt="Formateur de l'école 404" class="mx-auto rounded-circle">
-            <h3>Mark Zukerberg</h3>
-            <p>Formateur</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="team-member text-center">
-            <img src="./xavier-niel.jpg" alt="Formateur de l'école 404" class="mx-auto rounded-circle">
-            <h3>Xavier Niel</h3>
-            <p>Formateur</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <adress>
-            <p><a href="tel:0123456789" title="Appeler l'école 404"><i class="fas fa-phone-alt"></i></a>01 23 45 67 89</p>
-            <p><a href="mailto:contact@ecole404.com" title="Envoyer un email à l'école 404"><i class="fas fa-at"></i></a>contact@ecole404.com</p>
-            <p><a
-                href="https://www.google.com/maps?rlz=1C5CHFA_enFR825FR825&sxsrf=ALeKk005Q5-tB1ozslWF31AlOjbzIJ4lbA:1614847421016&q=404+rue+des+Ecoles+paris&gs_lcp=Cgdnd3Mtd2l6EANQgypYgypgsDRoAHAAeACAAacBiAGRApIBAzAuMpgBAKABAaoBB2d3cy13aXrAAQE&uact=5&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiw7vHBn5bvAhUKkxQKHUYSAu4Q_AUoAXoECAQQAw"
-                title="Voir l'emplacement de l'école 404"><i class="fas fa-map-marker-alt"></i></a>404 Rue des Ecoles 75005 Paris</p>
-          </adress>
-          <ul class="list-unstyled">
-            <li><a href="https://facebook.com" title="Rejoignez-nous sur facebook"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://twitter.com" title="Suivez-nous sur twitter"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://instagram.com" title="Suivez-nous sur instagram"><i class="fab fa-instagram"></i></a></li>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" aria-current="page" href="#"><span class="logoEcole">ÉCOLE</span> <span
+          class="logo404">404</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto text-uppercase">
+            <li class="nav-item mx-md-3">
+              <a class="nav-link" href="#accueil">Accueil</a>
+            </li>
+            <li class="nav-item mx-md-3">
+              <a class="nav-link" href="#presentation">Présentation</a>
+            </li>
+            <li class="nav-item mx-md-3">
+              <a class="nav-link " href="#formation">Formations</a>
+            </li>
+            <li class="nav-item mx-md-3">
+              <a class="nav-link" href="#team">Équipe</a>
+            </li>
+            <li class="nav-item mx-md-3">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
-        <div class="col-sm-6">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.4881737964065!2d2.3452917156691586!3d48.8489007792866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e6f6ae8f5f%3A0x8b0b081902ab372c!2sRue%20des%20%C3%89coles%2C%2075005%20Paris!5e0!3m2!1sfr!2sfr!4v1614846651843!5m2!1sfr!2sfr"
-            class="w-100" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy">
-          </iframe>
-        </div>
       </div>
-      <div class="contactForm">
-        <form class="form-horizontal mt-4">
-          <div class="row mx-2">
-            <div class="col-md-6">
-              <div class="form-floating">
-                <input type="nom" id="nom" class="form-control shadow fst-italic input" placeholder="Nom" aria-label="Nom" />
-                <label for="nom">Nom :</label>
-              </div>
-            </div>
-            <div class="col-md-6 mt-2 mt-md-0">
-              <div class="form-floating">
-                <input type="Prénom" id="name" class="form-control shadow fst-italic input" placeholder="Prénom" aria-label="Prénom" />
-                <label for="Pénom">Prénom :</label>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-floating">
-                <input type="email" id="email" class="form-control shadow fst-italic" placeholder="Email" aria-label="Email" />
-                <label for="email">Email :</label>
-              </div>
-            </div>
-            <div class="col-md-6 mt-2 mt-md-0">
-              <div class="form-floating">
-                <input type="tel" id="tel" class="form-control shadow fst-italic" placeholder="Téléphone" aria-label="Téléphone" />
-                <label for="tel">Téléphone :</label>
-              </div>
-            </div>
-            <div class="col-12">
-              <label for="textarea">Message :</label>
-              <textarea type="textarea" id="textarea" class="form-control shadow fst-italic" placeholder="Écrire ici" aria-label="Zone de texte"></textarea>
-            </div>
-            <div class="col-12">
-              <button type="submit" id="submit" class="btn btn-warning shadow mb-2 fst-italic" aria-label="Valider">Valider</button>
+    </nav>
+    <section id="presentation">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div id="infos">
+              <p>
+                Fondée en 1995, l'école <span class="logo404">404</span>, forme des experts sur tout les métiers du
+                numérique. Ceux-ci, seront capables de répondre
+                à tous les besoins des entreprises sur leur aspect digital, et seront entièrement polyvalent.
+              </p>
+              <p>
+                L'école <span class="logo404">404</span> s'interroge au quotidien sur l'évolution des métiers du web, et vous proposera
+                des formations à la pointe des dernières technologies.</br>
+                Excellence, rigueur et professionnalisme sont les trois principales valeurs que vous acquerrez lors de
+                votre passage
+                au sein de cet établissement, de haut standing.</br>
+                L'équipe pédagogique constitué des plus grands cadors du XXIe siècle, vous permettront un apprentissage
+                dans les meilleurs conditions, ainsi que des diplômes reconnus à l'international.
+              </p>
+              <p>
+                L'école <span class="logo404">404</span> s’adresse à deux types d’acteurs :
+              </p>
+              <p>
+                Les salariés et les demandeurs d’emploi qui souhaitent parfaire leur connaissance ou assumer une
+                reconversion
+                professionnelle dans les meilleurs conditions.
+                Les étudiants qui souhaitent avoir de vrais connaissances.
+              </p>
+              <p>
+                Si vous faites le bon choix de venir étudier dans notre école, je peux vous garantir que les entreprises
+                vous dérouleront
+                le tapis rouge en voyant votre diplôme et sa provenance. Je pense que la question, elle est vite répondue.
+              </p>
             </div>
           </div>
-        </form>
+          <div class="col-lg-6">
+            <div id="carouselPresentation" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active h-100">
+                  <img src="images/image3.jpg" class="w-100 h-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block rounded-3 imageflou">
+                    <h5>L'École 404</h5>
+                    <p>Transmet à ses étudiants des savoirs et des compétences en phase avec les attentes des entreprises
+                      pour qu’ils soient immédiatement opérationnels à l’issue de leur formation.</p>
+                  </div>
+                </div>
+                <div class="carousel-item h-100">
+                  <img src="images/image4.jpg" class="w-100 h-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block rounded-3 imageflou">
+                    <h5>L'Ecole 404</h5>
+                    <p>En tant que école agréée, vous avez l’assurance que toutes les formations sont qualifiantes,
+                      diplômantes et reconnues.</p>
+                  </div>
+                </div>
+                <div class="carousel-item h-100">
+                  <img src="images/image7.jpg" class="w-100 h-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block rounded-3 imageflou">
+                    <h5>L'Ecole 404</h5>
+                    <p>Acquérir de nouvelles qualifications dans les métiers de l’informatique ou du numérique ne peut que
+                      développer l’expérience et l’efficacité de vos équipes, leur projet professionnel ou l’insertion
+                      professionnelle des candidats – futurs salariés prodiges de votre structure.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev h-100" type="button" data-bs-target="#carouselPresentation" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next h-100" type="button" data-bs-target="#carouselPresentation" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="formation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">FORMATION WEB ET WEB MOBILE BAC +2</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <div class="card-buttons">
+                  <a href="#" class="btn btn-secondary">+ d'infos</a>
+                  <a href="mailto:candidature@ecole404.com" title="Présenter une candidature" class="btn btn-primary">Candidater</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">FORMATION DEVELOPPEUR FULL-STACK BAC +3/4</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <div class="card-buttons">
+                  <a href="#" class="btn btn-secondary">+ d'infos</a>
+                  <a href="mailto:candidature@ecole404.com" title="Présenter une candidature" class="btn btn-primary">Candidater</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">FORMATION DEVELOPPEUR BAC +5</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <div class="card-buttons">
+                  <a href="#" class="btn btn-secondary">+ d'infos</a>
+                  <a href="mailto:candidature@ecole404.com" title="Présenter une candidature" class="btn btn-primary">Candidater</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-  <footer class="bg-dark" style="height: 8rem;">
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
-</body>
+    </section>
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="team-member text-center">
+              <img src="./bill-gates.jpg" alt="Bill Gates directeur de l'école 404" class="mx-auto rounded-circle">
+              <h3>Bill Gates</h3>
+              <p>Directeur</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-member text-center">
+              <img src="./zukerberg.jpg" alt="Formateur de l'école 404" class="mx-auto rounded-circle">
+              <h3>Mark Zukerberg</h3>
+              <p>Formateur</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-member text-center">
+              <img src="./xavier-niel.jpg" alt="Formateur de l'école 404" class="mx-auto rounded-circle">
+              <h3>Xavier Niel</h3>
+              <p>Formateur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <ul class="list-unstyled d-flex flex-column justify-content-between h-100 m-0">
+              <li><a href="tel:0123456789" title="Appeler l'école 404" class="fs-4 me-3"><i class="fas fa-phone-alt"></i></a>01 23 45 67 89</li>
+              <li><a href="mailto:contact@ecole404.com" title="Envoyer un email à l'école 404" class="fs-4 me-3"><i class="fas fa-at"></i></a>contact@ecole404.com</li>
+              <li><a
+                  href="https://www.google.com/maps?rlz=1C5CHFA_enFR825FR825&sxsrf=ALeKk005Q5-tB1ozslWF31AlOjbzIJ4lbA:1614847421016&q=404+rue+des+Ecoles+paris&gs_lcp=Cgdnd3Mtd2l6EANQgypYgypgsDRoAHAAeACAAacBiAGRApIBAzAuMpgBAKABAaoBB2d3cy13aXrAAQE&uact=5&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiw7vHBn5bvAhUKkxQKHUYSAu4Q_AUoAXoECAQQAw"
+                  title="Voir l'emplacement de l'école 404" class="fs-4 me-3"><i class="fas fa-map-marker-alt"></i></a>404 Rue des Ecoles75005 Paris</li>
+              <ul class="list-unstyled d-flex justify-content-center m-0">
+                <li><a href="https://facebook.com" title="Rejoignez-nous sur facebook" class="fs-1 mx-5"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com" title="Suivez-nous sur twitter" class="fs-1 mx-5"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com" title="Suivez-nous sur instagram" class="fs-1 mx-5"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.4881737964065!2d2.3452917156691586!3d48.8489007792866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e6f6ae8f5f%3A0x8b0b081902ab372c!2sRue%20des%20%C3%89coles%2C%2075005%20Paris!5e0!3m2!1sfr!2sfr!4v1614846651843!5m2!1sfr!2sfr"
+              class="w-100" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+        <div class="contactForm">
+          <form class="form-horizontal mt-4">
+            <div class="row mx-2">
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="nom" id="nom" class="form-control shadow fst-italic input" placeholder="Nom" aria-label="Nom" />
+                  <label for="nom">Nom :</label>
+                </div>
+              </div>
+              <div class="col-md-6 mt-2 mt-md-0">
+                <div class="form-floating">
+                  <input type="Prénom" id="name" class="form-control shadow fst-italic input" placeholder="Prénom" aria-label="Prénom" />
+                  <label for="Pénom">Prénom :</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="email" id="email" class="form-control shadow fst-italic" placeholder="Email" aria-label="Email" />
+                  <label for="email">Email :</label>
+                </div>
+              </div>
+              <div class="col-md-6 mt-2 mt-md-0">
+                <div class="form-floating">
+                  <input type="tel" id="tel" class="form-control shadow fst-italic" placeholder="Téléphone" aria-label="Téléphone" />
+                  <label for="tel">Téléphone :</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="textarea">Message :</label>
+                <textarea type="textarea" id="textarea" class="form-control shadow fst-italic" placeholder="Écrire ici" aria-label="Zone de texte"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" id="submit" class="btn btn-warning shadow mb-2 fst-italic" aria-label="Valider">Valider</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-center text-white align-text-bottom align-bottom">
+      <p>Copyright © Ecole 404 2021</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
