@@ -4,19 +4,29 @@
 }
 .carousel-item img
 {
-  height: 100%;
   object-fit: cover;
   object-position: center;
 }
-.carousel-item
-{
-  height: 100%;
+#presentation {
+  padding-top: 3.5rem;
+}
+#formation {
+  padding-top: 5.5rem;
+}
+#team {
+  padding-top: 5.5rem;
+}
+#contact {
+  padding-top: 5.5rem;
 }
 .team-member img {
   width: 14rem;
   height: 14rem;
   object-fit: cover;
   object-position: top;
+}
+footer {
+  height: 8rem;
 }
 .imageflou{
   background-color: rgba(0,0,0,0.3);
