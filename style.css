@@ -36,7 +36,6 @@ header .carousel-inner
 }
 .logo404{
     color: #F5420A;
-    /*font-family: 'Inconsolata', monospace; */
     font-weight: bold;
     font-size: 120%;
 }
@@ -44,11 +43,6 @@ body{
     color:rgb(23, 64, 105);
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
-    /* background-image: url('images/back.jpg'); */
-    /*   #00b894   */
-}
-.input{
-    width: 100%;
 }
 footer {
   height: 8rem;
